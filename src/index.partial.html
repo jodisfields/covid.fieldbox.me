@@ -1,0 +1,47 @@
+<body>
+  <section class="nav">
+    <h1>COVID-19</h1>
+    <h3 class="span loader">
+      <span class='m'>N</span>
+      <span class='m'>E</span>
+      <span class='m'>W</span>
+      <span class='m'>&nbsp;</span>
+      <span class='m'>S</span>
+      <span class='m'>O</span>
+      <span class='m'>U</span>
+      <span class='m'>T</span>
+      <span class='m'>H</span>
+      <span class='m'>&nbsp;</span>
+      <span class='m'>W</span>
+      <span class='m'>A</span>
+      <span class='m'>L</span>
+      <span class='m'>E</span>
+      <span class='m'>S</span>
+    </h3>
+    <div class="nav-container">
+      <a class="nav-tab" href="#tab-total">TOTAL CASES</a>
+      <a class="nav-tab" href="#tab-new">NEW CASES</a>
+      <a class="nav-tab" href="#tab-active">ACTIVE CASES</a>
+      <span class="nav-tab-slider"></span>
+    </div>
+  </section>
+
+  <main class="main">
+    <section class="slider" id="tab-total">
+      <h1>TOTAL CASES</h1>
+      <iframe src="https://nswdac-covid-19-postcode-heatmap.azurewebsites.net/totalcases.html" width="100%"
+        frameborder="0" allowfullscreen="true" scrolling="no" background="no"></iframe>
+    </section>
+    <section class="slider" id="tab-new">
+      <h1>NEW CASES</h1>
+      <iframe src="https://nswdac-covid-19-postcode-heatmap.azurewebsites.net/newcases.html" width="100%"
+        frameborder="0" allowfullscreen="true" scrolling="no" background="no"></iframe>
+    </section>
+    <section class="slider" id="tab-active">
+      <h1>ACTIVE CASES</h1>
+      <h2>lorem dolor ipsum</h2>
+    </section>
+  </main>
+
+  <canvas class="background"></canvas>
+</body>
